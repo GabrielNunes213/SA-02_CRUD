@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Procedimento</title>
+    <style>
+        p {
+            font-size: 20px;
+        }
+
+        #botaoatualizarprocedimento {
+            background-color: #D3D3D3;
+            border-radius: 10px;
+            width: 180px;
+            height: 28px;
+            font-size: 15px;
+        }
+
+        input {
+            text-align: center;
+            width: 180px;
+            height: 20px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+    
+    <h2>Atualizar Procedimento</h2>
+    <h3>Escreva apenas nos campos que você deseja atualizar, deixe os outros vazios.</h3>
+    <h3>Obrigatorio Colocar o ID para identificação</h3>
+
+    <form action="AtualizarPROC.php" method="post">
+
+    <p>ID Procedimento</p> <input type="number" name="idproc" placeholder="Digite o ID" required><br>
+
+    <p>Código</p> <input type="number" name="Codigo" placeholder="Digite o Código"><br>
+
+    <p>Nome</p><input type="text" name="nomeproc" placeholder="Nome Procedimento"><br>
+
+    <p>Valor</p><input type="text" name="valor" placeholder="Digite o Valor"><br>
+
+    <p>Gênero</p><input type="text" name="Genero" placeholder="Digite o Gênero"><br>
+   
+    <p>Adicionar Exceção</p><input type="text" name="Excecao" placeholder="Adicionar Exceção"><br>
+
+    <br>
+    <input id="botaoatualizarprocedimento" type="submit" value="Atualizar Procedimento">
+    </form>
+
+    </center>
+
+
+</body>
+</html>

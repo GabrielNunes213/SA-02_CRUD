@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apagar Especialidade</title>
+    <style>
+        p {
+            font-size: 22px;
+        }
+
+        #botaoenviar {
+            background-color: #D3D3D3;
+            border-radius: 10px;
+            width: 130px;
+            height: 28px;
+            font-size: 15px;
+        }
+
+        input {
+            text-align: center;
+            width: 180px;
+            height: 25px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+    <h2>Deletar Especialidade</h2>
+
+    <form action="ApagarEspecialidade.php" method="post">
+        <p>ID Especialidade</p><input type="text" name="idesp" placeholder="Digite o ID" required><br><br>
+        <input id="botaoenviar" type="submit" value="Deletar">
+    </form>
+
+   </center>
+      
+</body>
+</html>

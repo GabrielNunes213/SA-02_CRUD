@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apagar Procedimento</title>
+    <style>
+        p {
+            font-size: 20px;
+        }
+
+        #botaodelprocedimento {
+            background-color: #D3D3D3;
+            border-radius: 10px;
+            width: 180px;
+            height: 28px;
+            font-size: 15px;
+        }
+
+        input {
+            text-align: center;
+            width: 180px;
+            height: 20px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+
+    <h2>Deletar Procedimento</h2>
+
+    <form action="ApagarProcedimento.php" method="post">
+        <p>ID Procedimento</p><input type="text" name="idproc" placeholder="Digite o ID" required><br><br>
+        <input id="botaodelprocedimento" type="submit" value="Deletar">
+    </form>
+      
+    </center>
+
+</body>
+</html>
